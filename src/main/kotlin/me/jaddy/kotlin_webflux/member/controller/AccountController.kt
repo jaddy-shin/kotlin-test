@@ -1,10 +1,7 @@
-package me.jaddy.kotlin_webflux.member.adapter.`in`.rest
+package me.jaddy.kotlin_webflux.member.controller
 
 import jakarta.validation.Valid
-import me.jaddy.kotlin_webflux.member.adapter.`in`.rest.model.CreateAccountRequestDto
-import me.jaddy.kotlin_webflux.member.adapter.`in`.rest.model.AccountResponseDto
-import me.jaddy.kotlin_webflux.member.adapter.`in`.rest.model.UpdateAccountRequestDto
-import me.jaddy.kotlin_webflux.member.application.service.AccountService
+import me.jaddy.kotlin_webflux.member.service.AccountService
 import org.springframework.web.bind.annotation.*
 
 @RestController

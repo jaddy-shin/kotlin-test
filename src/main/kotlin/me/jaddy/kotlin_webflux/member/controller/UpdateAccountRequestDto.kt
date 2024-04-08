@@ -1,9 +1,9 @@
-package me.jaddy.kotlin_webflux.member.adapter.`in`.rest.model
+package me.jaddy.kotlin_webflux.member.controller
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import jakarta.validation.constraints.NotBlank
 
-data class CreateAccountRequestDto(
+data class UpdateAccountRequestDto(
     @field:JsonProperty
     @NotBlank
     val name: String

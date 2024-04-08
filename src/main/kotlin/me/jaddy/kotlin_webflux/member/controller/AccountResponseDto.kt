@@ -1,4 +1,4 @@
-package me.jaddy.kotlin_webflux.member.adapter.`in`.rest.model
+package me.jaddy.kotlin_webflux.member.controller
 
 import me.jaddy.kotlin_webflux.member.domain.Account
 
