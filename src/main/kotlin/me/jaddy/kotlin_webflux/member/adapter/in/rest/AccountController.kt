@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 class AccountController(
-    val accountService: AccountService,
+    private val accountService: AccountService,
 ) {
 
     @GetMapping("/api/account/{id}")
