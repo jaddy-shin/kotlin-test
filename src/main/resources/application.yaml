@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: kotlin_webflux
+  r2dbc:
+    url: r2dbc:pool:mysql://localhost:3306/test
+    username: root
+    password: tiara
+
+server:
+  port: 10004
+
